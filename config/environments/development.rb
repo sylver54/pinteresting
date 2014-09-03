@@ -1,3 +1,5 @@
+
+Paperclip.options[:command_path] = "/opt/ImageMagick/bin/convert"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -37,4 +39,6 @@ Rails.application.configure do
   
   # Required for Heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+
 end
